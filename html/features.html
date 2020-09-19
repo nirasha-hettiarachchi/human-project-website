@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="Human Website Landing Page" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="../css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="../css/site.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#human-nav-bar").load("partials/navbar.html");
+      });
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <div id="human-nav-bar"></div>
+    </header>
+    <main>
+      <div class="text-center human-features-box">
+        <h1 class="display-4">Features</h1>
+        <div class="container text-left human-features-container">
+          <div class="row">
+            <div class="col">
+              <h3 class="font-weight-normal">Your Suggestion.</h3>
+              <p class="lead">
+                We want to hear what you want from us to be more human!
+              </p>
+              <form class="human-features-form">
+                <div class="form-group">
+                  <label for="exampleFormControlName">Name:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlName"
+                    placeholder="Enter Name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Feature:</label>
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+            <div class="col">
+              <h3 class="font-weight-normal">Their Suggestions.</h3>
+              <p class="lead">
+                This is what peeps like you think will help one be more human.
+              </p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  Reduce Social Media by 10% each day
+                  <span class="badge badge-success"> Kripa, 2 seconds ago</span>
+                </li>
+                <li class="list-group-item">
+                  Do one good deed before bed
+                  <span class="badge badge-success"> Jane, 10 minutes ago</span>
+                </li>
+                <li class="list-group-item">
+                  Thank one person who helped you get through the day
+                  <span class="badge badge-success"> John Doe, 3 days ago</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="text-center human-footer-box fixed-bottom">
+      Copyrights | The Human Project
+    </footer>
+  </body>
+</html>
